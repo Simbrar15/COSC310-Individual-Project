@@ -43,6 +43,7 @@ If the text is negative, tell a joke to the user.
 If all the above items cannot be done. Say sorry to the user.
 
 Updated Portion of README:
+
 I decided to use a google translate and a Wikipedia API to help enhance our support bot. I used Google translate so that people who may not speak English would also be able to use our support bot. I decided to use the Wikipedia API so that if a user wanted to learn more about a product they could search it up on Wikipedia.
 
 
