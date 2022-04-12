@@ -3,6 +3,8 @@ from Refund import refund
 from order_again import OrderAgain
 from concierge import Concierge
 from test import load_qna, process
+from googletranslate import translate
+from wikipedia import wikiapi
 import time
 
 def main():
@@ -36,6 +38,12 @@ def main():
             print("hi what can i help you with ?")
             message = input()
             process(message)
+        elif "translate" in response.lower():
+            time.sleep(2)
+            translate()
+        elif "search" in response.lower():
+            time.sleep(2)
+            wikiapi()
 
         time.sleep(2)
         yesorno = str(input("Is there anything else I can help you with? (yes/no)"))
